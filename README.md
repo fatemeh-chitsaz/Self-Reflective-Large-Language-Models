@@ -69,21 +69,4 @@ pip install -r requirements.txt
 
 GPU execution is strongly recommended for the fine-tuning sections.
 
-## Research status
 
-This repository is an **experimental research prototype**, not a production trading system. It should not be interpreted as financial advice or as evidence that the model can predict markets reliably.
-
-The strongest next research improvements would be:
-
-- strict temporal train/validation/test splits;
-- leakage checks;
-- comparison against non-reflective LLM baselines;
-- comparison against simple statistical/ML baselines;
-- ablation of reflection vs. fine-tuning;
-- multiple random seeds;
-- clearly reported accuracy/F1 and calibration;
-- reproducible data-generation scripts.
-
-## Attribution
-
-The project uses open-source Hugging Face/PEFT tooling and a Vicuna base model. Consult the respective upstream licenses before redistribution or deployment.
